@@ -20,6 +20,20 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">_packages.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <Folder Name="public" TargetFolderName="public">
+        <Folder Name="app" TargetFolderName="app">
+          <Folder Name="assets" TargetFolderName="assets">
+
+          </Folder>
+          <Folder Name="components" TargetFolderName="components">
+            <Folder Name="home" TargetFolderName="home">
+              <ProjectItem ReplaceParameters="true" TargetFileName="homeCtrl.ts">homeCtrl.ts</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="shared" TargetFolderName="shared">
+
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="module.ts">module.ts</ProjectItem>
+        </Folder>
         <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>

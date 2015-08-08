@@ -104,6 +104,14 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="public\app\components\home\homeCtrl.ts" />
+    <TypeScriptCompile Include="public\app\module.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\app\assets\" />
+    <Folder Include="public\app\shared\" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Controllers\ValuesController.cs" />

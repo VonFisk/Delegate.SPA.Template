@@ -19,6 +19,7 @@
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency d:Source="Installed" Id="Microsoft.TypeScript.3D12078A-1A3F-4AFF-8B70-0037C0F580CD" DisplayName="TypeScript for Microsoft Visual Studio" Version="[1.5.4.0,2.0)" d:InstallSource="Download" Location="http://www.typescriptlang.org/#Download" />
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:TargetPath="|Delegate.SPA.Template;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
